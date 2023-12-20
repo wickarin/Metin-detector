@@ -18,13 +18,17 @@ This document will take the ideas and thought process through each step
 ### Metin
 Class to represent the info about a Metin found:
     - distance (from middle of screen to its location)
+In development.
+Will be used for closest Metin found and potentially Metin queueing.
 
-### MetinDetector 
+### MetinDetector
 Class to harbor all calculations done between the player and Metins
-
+**Dropped** -> no longer used, unrequested additional complexity
 ## Imaging
 Starts at (0, 30) down to (1024, 800)
 (0, 30) --- (1024, 30)
 |                   |
 |                   |
 (0,800) --- (1024,800)
+
+Time per Metin of Murder -> 16 secs
